@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Outfit;
+    background: url('./assets/background.svg') lightgray 50% / cover no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    gap: 180px;
+}
+
+.text-container {
+    width: 380px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+h1,
+p {
+    color: #D6D6F2;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 24px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 140%;
+    margin-bottom: 56px;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+
+button {
+    width: fit-content;
+    padding: 12px 24px;
+    background-color: #151557;
+    color: #E2E2F5;
+    border-radius: 999px;
+    border-radius: 30px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+button:hover {
+    background-color: #212187;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.animation-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+.number {
+    width: 80px;
+}
+
+.animation-background {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    background-color: lightgray;
+    filter: blur(150px);
+    border-radius: 50%;
+}
+
+@media (min-width: 2000px) {
+    .animation-background {
+        filter: blur(200px);
+    }
+}
