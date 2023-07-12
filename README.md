@@ -6,7 +6,7 @@ Desafio proposto pela Rockeseat.
 
 ![preview](./preview.png)
 
-[🔗 Clique aqui para acessar](https://julietedias.github.io/page-not-found/)
+[🔗 Acessar página](https://julietedias.github.io/page-not-found/)
 
 ## 💻 Tecnologias
 - HTML
