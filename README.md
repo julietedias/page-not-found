@@ -2,7 +2,7 @@
 
 ## #boraCodar uma página de erro 404
 
-Desafio proposto pela Rockeseat, para criar uma página de erro 404.
+Desafio proposto pela Rockeseat.
 
 ![preview](./preview.png)
 
